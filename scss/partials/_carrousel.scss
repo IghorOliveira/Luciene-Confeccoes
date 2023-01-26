@@ -1,0 +1,116 @@
+@use 'custom' as *;
+
+
+.indicators--intro{
+    border: 3px solid $terciary;
+    border-radius: 25px;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 13px;
+    padding: 0 0;
+
+    @include media-breakpoint-only(md){
+        width: 150px !important;
+        height: 30px;
+        padding: 0;
+        padding-bottom: 30px;    
+    }
+
+    @include media-breakpoint-down(sm){
+        width: 100px !important;
+        height: 30px;
+        padding: 0;
+        padding-bottom: 30px;
+    }
+
+
+}
+.carousel-indicators-round{ 
+    width: 12px !important; 
+    height: 12px !important; 
+    border-radius: 100% !important; 
+    background-color: $terciary !important;
+
+    @include media-breakpoint-down(md){
+        width: 10px !important; 
+        height: 10px !important;
+        color: $gray-600 ;
+        padding: 0;
+        margin-top: 0;
+    }
+}
+.carousel-inner{
+    .carousel-item{ 
+        img{
+            border-radius: 18px; 
+        }
+    }
+} 
+
+.indicator-mobile{
+    border: 3px solid $terciary;
+    border-radius: 25px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 13px;
+    padding: 0 0;
+
+    @include media-breakpoint-only(md){
+        width: 150px !important;
+        height: 30px;
+        padding: 0;
+        padding-bottom: 30px;
+        margin-bottom: -60px;
+    }
+
+    @include media-breakpoint-down(sm){
+        width: 100px !important;
+        height: 30px;
+        padding: 0;
+        padding-bottom: 30px;
+        margin-bottom: -50px;
+    }
+}
+
+
+
+.carousel-control-prev{
+    justify-content: start;
+    margin-left: 45px;
+
+    .fa-chevron-left{
+        color: $terciary;
+        /* width: 40px;
+        height: 40px; */
+    }
+
+    @include media-breakpoint-down(md){
+        margin-left: 0;
+    }
+}
+
+.arrow-intro-prev{
+    @include media-breakpoint-down(md){
+        margin-left: 45px !important;
+    }
+}
+
+.arrow-intro-next{
+    @include media-breakpoint-down(md){
+        margin-right: 45px !important;
+    }
+}
+
+.carousel-control-next{
+    justify-content: end;
+    margin-right: 45px;
+
+    .fa-chevron-right{
+        color: $terciary;;
+    }
+
+    @include media-breakpoint-down(md){
+        margin-right: 0;
+    }
+}
+

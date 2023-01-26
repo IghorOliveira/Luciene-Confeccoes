@@ -1,0 +1,13 @@
+@use 'partials/custom' as *;
+
+@use 'components/navbar' as *;
+@use 'partials/typography' as *;
+@use 'partials/utilities' as *;
+@use 'partials/buttons' as *;
+@use 'partials/carrousel' as *;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

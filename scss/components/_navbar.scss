@@ -1,0 +1,40 @@
+@use '../partials/custom' as *;
+
+nav{
+    height: 80px !important;
+    width: 100% !important;
+    /* background: linear-gradient(to right, rgba($dark-pink, 1), rgba($light-purple, 1)); */
+    background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+
+}
+
+
+
+.nav-item__mobile, .collapse__mobile{
+    background-color: #fad0c4;
+}
+
+
+
+.nav-item__mobile{
+    margin-right: auto;
+}
+
+.dropdown{
+    .dropdown-menu{
+        background: #fad0c4;
+
+        .dropdown-item{
+            background: #fad0c4;
+            font-size: 18px;
+            font-weight: 600;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+/* form {
+    .form
+} */

@@ -1,0 +1,48 @@
+@use '../partials/mixins';
+
+//Main Font
+$main-font:'Poppins', sans-serif;
+
+//Theme colors
+$color-bg:                      #eee;
+$color-foreground:              rgb(18, 18, 18);
+$color-black:                   #000;
+$color-white:                   #fff;
+$color-base-accent-1:           rgb(18, 18, 18);
+$color-base-solid-button-labels:rgb(255, 255, 255);
+$color-base-background-2:       rgb(243, 243, 243);
+$color-link:                    rgb(18, 18, 18);
+$color-light:                   #f3f3f3;
+$color-gradient:                  linear-gradient(to-right, #FFAFCC, #FFC8DD);
+$orange:                        #fb7800;
+
+// scss-docs-start gray-color-variables
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+//colors
+$dark-pink: #FFAFCC;
+$light-pink: #FFC8DD;
+$light-purple: #CDB4DB;
+$blue: #A2D2FF;
+$light-blue: #BDE0FE;
+
+//Main color
+$primary:       $dark-pink;
+$secondary:     $light-purple;
+$terciary:      $blue;
+
+
+
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
