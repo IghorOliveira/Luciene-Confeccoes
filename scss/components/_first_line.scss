@@ -1,0 +1,27 @@
+.first-line{
+
+    .first-line__title{
+        font-size: 50px;
+    }
+
+    .gradient__link{
+        display: inline-block;
+        text-decoration: none;
+        padding: 20px 35px;
+        background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+        border-radius: 10px;
+
+        &:hover{
+            outline: 3px solid #8f71ff;
+        }
+    
+        .gradient__button--first-line{
+            color: #fff !important;
+        }
+    }
+
+    .item__title{
+        margin: 15px auto 8px auto;
+    }
+}
+

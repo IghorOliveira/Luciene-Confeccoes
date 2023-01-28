@@ -1,7 +1,10 @@
-@use 'partials/custom' as *;
-
 @use 'components/navbar' as *;
 @use 'components/header' as *;
+@use 'components/first_line' as *;
+@use 'components/footer' as *;
+
+@use 'partials/custom' as *;
+
 @use 'partials/typography' as *;
 @use 'partials/utilities' as *;
 @use 'partials/buttons' as *;
@@ -11,4 +14,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.row{
+    width: 98% !important;
 }

@@ -1,0 +1,53 @@
+@use '../partials/custom' as *;
+
+.footer{
+    margin: 65px auto 0 auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+
+    .container-gray{
+        background-color: rgba($black, 0.6);
+        margin: 0 !important;
+        .footer__top{
+            
+            p{
+                color: $white !important;
+                font-size: 22px;
+                margin-bottom: 15px;
+                font-weight: 900;
+            }
+    
+            ul{
+                li{
+                    color: $white;
+                    font-weight: 400;
+                    padding-bottom: 8px;
+                    margin-bottom: 8px;
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    .container-black{
+        background-color: $black !important;
+        margin: 0 !important;
+        .footer__bottom{
+            
+    
+            p{
+                color: $white !important;
+                
+                text-align: center;
+            }
+        }
+    }
+
+
+
+
+}

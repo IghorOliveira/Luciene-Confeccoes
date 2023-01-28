@@ -29,7 +29,7 @@ nav {
     .form
 } */
 header .header__container {
-  width: 100vw;
+  width: 99vw;
   margin: 0 auto;
   padding: 10px 0;
 }
@@ -53,6 +53,59 @@ header .header__container ul li a {
 header .header__container ul li a:hover {
   text-decoration: underline;
   transition: 0.5s ease-in-out;
+}
+
+.first-line .first-line__title {
+  font-size: 50px;
+}
+.first-line .gradient__link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 35px;
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+  border-radius: 10px;
+}
+.first-line .gradient__link:hover {
+  outline: 3px solid #8f71ff;
+}
+.first-line .gradient__link .gradient__button--first-line {
+  color: #fff !important;
+}
+.first-line .item__title {
+  margin: 15px auto 8px auto;
+}
+
+.footer {
+  margin: 65px auto 0 auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+.footer .container-gray {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0 !important;
+}
+.footer .container-gray .footer__top p {
+  color: #fff !important;
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 900;
+}
+.footer .container-gray .footer__top ul li {
+  color: #fff;
+  font-weight: 400;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+.footer .container-gray .footer__top ul li:hover {
+  text-decoration: underline;
+}
+.footer .container-black {
+  background-color: #000 !important;
+  margin: 0 !important;
+}
+.footer .container-black .footer__bottom p {
+  color: #fff !important;
+  text-align: center;
 }
 
 a, h1, h2, h3, h4, h5, h6, p, span {
@@ -87,6 +140,34 @@ input::placeholder {
   color: rgba(0, 0, 0, 0.6);
   border-bottom: 1px solid rgba(0, 0, 0, 0.6);
   transition: 0.5s ease-in-out;
+}
+
+.border-round {
+  border-radius: 25px !important;
+}
+
+.img-zoom {
+  transition: 0.35s ease-in-out;
+}
+.img-zoom:hover {
+  transition: 0.35s ease-in-out;
+  transform: scale(1.05);
+}
+
+.img-resize {
+  display: block;
+  margin: 0 auto;
+  height: 35vh;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .img-resize {
+    width: 380px;
+  }
+}
+@media (max-width: 575.98px) {
+  .img-resize {
+    width: 220px;
+  }
 }
 
 .indicators--intro {
@@ -205,6 +286,10 @@ input::placeholder {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.row {
+  width: 98% !important;
 }
 
 /*# sourceMappingURL=style.css.map */
