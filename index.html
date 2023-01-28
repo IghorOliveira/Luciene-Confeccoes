@@ -16,13 +16,13 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg menu">
-        <div class="container align-items-center">
+        <div class="container">
           <a class="navbar-brand align-self-center" href="#">Luciene Confecções</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse ps-5 d-none d-lg-inline-block override-background" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
@@ -31,8 +31,14 @@
                     Nossos Produtos
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Roupa Masculina</a></li>
-                  <li><a class="dropdown-item" href="#">Roupa Feminina</a></li>
+                  <li><a class="dropdown-item" href="#">Recem Nascisdos (0 a 24 meses)</a></li>
+                  <li><a class="dropdown-item" href="#">Bebe (1 a 3 anos)</a></li>
+                  <li><a class="dropdown-item" href="#">Kids (4 a 8)</a></li>
+                  <li><a class="dropdown-item" href="#">Menino</a></li>
+                  <li><a class="dropdown-item" href="#">Menina</a></li>
+                  <li><a class="dropdown-item" href="#">Calçados</a></li>
+                  <li><a class="dropdown-item" href="#">Kits</a></li>
+                  <li><a class="dropdown-item" href="#">Roupa  de cama</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Ver Todos os Produtos</a></li>
                 </ul>
@@ -44,17 +50,31 @@
                 <a class="nav-link" href="">Entre em Contato</a>
               </li>
             </ul>
-            <form class="d-flex align-content-start pb-2" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill: #000; width: 20px;">
-                    <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/>
-                </svg>
-              </button>
-            </form>
           </div>
         </div>
       </nav>
+      <header class="">
+        <div class="header__container bg-dark d-flex justify-content-center">
+          <!-- <p class="text-white py-2 ">Item 1</p>
+          <p class="text-white py-2 ">Item 1</p>
+          <p class="text-white py-2 ">Item 1</p>
+          <p class="text-white py-2 ">Item 1</p>
+          <p class="text-white py-2 ">Item 1</p> -->
+          <ul class="">
+            <li class=""><a href="" class="text-white">Recém Nascido</a></li>
+            <li class=""><a href="" class="text-white">Bebe</a></li>
+            <li class=""><a href="" class="text-white">Kids</a></li>
+            <li class="d-none d-md-inline"><a href="" class="text-white">Menino</a></li>
+            <li class="d-none d-md-inline"><a href="" class="text-white">Menina</a></li>
+            <li class="d-none d-lg-inline"><a href="" class="text-white">Calçados</a></li>
+            <li class="d-none d-lg-inline"><a href="" class="text-white">Atacado</a></li>
+            <li class="d-none d-lg-inline"><a href="" class="text-white">Varejo</a></li>
+            <li class="d-none d-lg-inline"><a href="" class="text-white">Kits</a></li>
+            <li class="d-none d-lg-inline"><a href="" class="text-white">Roupa de Cama</a></li>
+          </ul>
+        </div>
+      </header>
+
 
       <div class="collapse navbar-collapse ps-3 collapse__mobile" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -66,10 +86,16 @@
                 Nossos Produtos
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Roupa Masculina</a></li>
-              <li><a class="dropdown-item" href="#">Roupa Feminina</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Ver Todos os Produtos</a></li>
+                <li><a class="dropdown-item" href="#">Recem Nascisdos (0 a 24 meses)</a></li>
+                <li><a class="dropdown-item" href="#">Bebe (1 a 3 anos)</a></li>
+                <li><a class="dropdown-item" href="#">Kids (4 a 8)</a></li>
+                <li><a class="dropdown-item" href="#">Menino</a></li>
+                <li><a class="dropdown-item" href="#">Menina</a></li>
+                <li><a class="dropdown-item" href="#">Calçados</a></li>
+                <li><a class="dropdown-item" href="#">Kits</a></li>
+                <li><a class="dropdown-item" href="#">Roupa  de cama</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="#">Ver Todos os Produtos</a></li>
             </ul>
           </li>
           <li class="nav-item nav-item__mobile">
@@ -79,19 +105,11 @@
             <a class="nav-link" href="">Entre em Contato</a>
           </li>
         </ul>
-        <form class="d-flex align-content-start pb-2" role="search">
-          <input class="form-control me-2 w-50" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill: #000; width: 20px;">
-                <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/>
-            </svg>
-          </button>
-        </form>
       </div>
 
 
           <!-- slidders with images -->
-    <section class="intro mt-5">
+    <section class="intro mt-2">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
           <div class="carousel-indicators indicators--intro">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active carousel-indicators-round" aria-current="true" aria-label="Slide 1"></button>

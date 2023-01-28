@@ -4,14 +4,14 @@ nav{
     height: 80px !important;
     width: 100% !important;
     /* background: linear-gradient(to right, rgba($dark-pink, 1), rgba($light-purple, 1)); */
-    background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    background: $white; /* linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); */
 
 }
 
 
 
 .nav-item__mobile, .collapse__mobile{
-    background-color: #fad0c4;
+    background-color: $white;
 }
 
 
@@ -22,10 +22,10 @@ nav{
 
 .dropdown{
     .dropdown-menu{
-        background: #fad0c4;
+        background: /* #fad0c4 */ $white;
 
         .dropdown-item{
-            background: #fad0c4;
+            background: /* #fad0c4 */ $white;
             font-size: 18px;
             font-weight: 600;
             &:hover{

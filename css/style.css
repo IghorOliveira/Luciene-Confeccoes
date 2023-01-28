@@ -2,11 +2,11 @@ nav {
   height: 80px !important;
   width: 100% !important;
   /* background: linear-gradient(to right, rgba($dark-pink, 1), rgba($light-purple, 1)); */
-  background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  background: #fff; /* linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); */
 }
 
 .nav-item__mobile, .collapse__mobile {
-  background-color: #fad0c4;
+  background-color: #fff;
 }
 
 .nav-item__mobile {
@@ -14,10 +14,10 @@ nav {
 }
 
 .dropdown .dropdown-menu {
-  background: #fad0c4;
+  background: #fff;
 }
 .dropdown .dropdown-menu .dropdown-item {
-  background: #fad0c4;
+  background: #fff;
   font-size: 18px;
   font-weight: 600;
 }
@@ -28,6 +28,33 @@ nav {
 /* form {
     .form
 } */
+header .header__container {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+header .header__container ul {
+  display: flex;
+  flex-direction: row;
+}
+header .header__container ul li {
+  margin: 0 45px;
+}
+@media (max-width: 575.98px) {
+  header .header__container ul li {
+    margin: 0 35px;
+  }
+}
+header .header__container ul li a {
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  font-size: 16px;
+}
+header .header__container ul li a:hover {
+  text-decoration: underline;
+  transition: 0.5s ease-in-out;
+}
+
 a, h1, h2, h3, h4, h5, h6, p, span {
   color: #000 !important;
   font-family: "Dancing Script", cursive;
