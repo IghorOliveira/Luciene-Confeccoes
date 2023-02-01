@@ -9,12 +9,13 @@ header{
         ul{
             display: flex;
             flex-direction: row;
+            align-items: center;
 
             li{
-                margin: 0 45px;
+                margin: 0 40px;
 
                 @include media-breakpoint-down(sm){
-                    margin: 0 35px;
+                    margin: 0 30px;
                 }
 
                 a{
