@@ -39,18 +39,30 @@ input::placeholder {
 }
 
 .first-line__title{
-    font-size: 50px !important;
+    font-size: 50px;
     font-family: 'Courgette', cursive;
+
+    @include media-breakpoint-down(sm){
+        font-size: 40px;
+    }
 }
 
 .second-line__title{
-    font-size: 50px !important;
+    font-size: 50px;
     font-family: 'Permanent Marker', cursive;
+
+    @include media-breakpoint-down(sm){
+        font-size: 40px;
+    }
 }
 
 .third-line__title{
-    font-size: 50px !important;
+    font-size: 50px;
     font-family: 'Bangers', cursive;
+
+    @include media-breakpoint-down(sm){
+        font-size: 40px;
+    }
 }
 
 .item__title{

@@ -71,6 +71,7 @@ header .header__container ul li a:hover {
 }
 
 .footer {
+  position: relative;
   margin: 65px auto 0 auto;
   font-family: "Dancing Script", cursive;
   font-size: 20px;
@@ -101,6 +102,25 @@ header .header__container ul li a:hover {
 .footer .container-black .footer__bottom p {
   color: #fff !important;
   text-align: center;
+}
+.footer .up-top {
+  position: absolute;
+  display: block;
+  right: 15px;
+  bottom: 5px;
+  background: rgb(59, 59, 59);
+  border: none;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.footer .up-top i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
 }
 
 .catalog__helper {
@@ -198,18 +218,33 @@ input::placeholder {
 }
 
 .first-line__title {
-  font-size: 50px !important;
+  font-size: 50px;
   font-family: "Courgette", cursive;
+}
+@media (max-width: 575.98px) {
+  .first-line__title {
+    font-size: 40px;
+  }
 }
 
 .second-line__title {
-  font-size: 50px !important;
+  font-size: 50px;
   font-family: "Permanent Marker", cursive;
+}
+@media (max-width: 575.98px) {
+  .second-line__title {
+    font-size: 40px;
+  }
 }
 
 .third-line__title {
-  font-size: 50px !important;
+  font-size: 50px;
   font-family: "Bangers", cursive;
+}
+@media (max-width: 575.98px) {
+  .third-line__title {
+    font-size: 40px;
+  }
 }
 
 .item__title {
