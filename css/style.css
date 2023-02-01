@@ -55,9 +55,6 @@ header .header__container ul li a:hover {
   transition: 0.5s ease-in-out;
 }
 
-.first-line .first-line__title {
-  font-size: 50px;
-}
 .first-line .gradient__link {
   display: inline-block;
   text-decoration: none;
@@ -70,9 +67,6 @@ header .header__container ul li a:hover {
 }
 .first-line .gradient__link .gradient__button--first-line {
   color: #fff !important;
-}
-.first-line .item__title {
-  margin: 15px auto 8px auto;
 }
 
 .footer {
@@ -108,6 +102,47 @@ header .header__container ul li a:hover {
   text-align: center;
 }
 
+.catalog__helper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 25px 0;
+  margin-left: 64px;
+  font-size: 14px;
+}
+.catalog__helper a {
+  text-decoration: none;
+}
+.catalog__helper a:hover {
+  text-decoration: underline;
+}
+.catalog__helper a p {
+  font-family: "Exo 2", sans-serif !important;
+}
+.catalog__helper .catalog__text {
+  font-family: "Exo 2", sans-serif !important;
+  margin: 0 15px;
+  cursor: default;
+}
+
+.catalog .catalog__title {
+  font-family: "Bangers", cursive;
+  font-size: 50px;
+  margin-left: 50px;
+}
+.catalog .container-fluid .row {
+  margin-top: 40px;
+}
+.catalog .container-fluid .row .px-2 {
+  padding-left: 48px !important;
+}
+.catalog .container-fluid .row .px-2 .catalog__link {
+  text-decoration: none;
+}
+.catalog .container-fluid .row .px-2 .catalog__link:hover {
+  text-decoration: underline;
+}
+
 a, h1, h2, h3, h4, h5, h6, p, span {
   color: #000 !important;
   font-family: "Dancing Script", cursive;
@@ -140,6 +175,32 @@ input::placeholder {
   color: rgba(0, 0, 0, 0.6);
   border-bottom: 1px solid rgba(0, 0, 0, 0.6);
   transition: 0.5s ease-in-out;
+}
+
+.first-line__title {
+  font-size: 50px !important;
+  font-family: "Courgette", cursive;
+}
+
+.second-line__title {
+  font-size: 50px !important;
+  font-family: "Permanent Marker", cursive;
+}
+
+.third-line__title {
+  font-size: 50px !important;
+  font-family: "Bangers", cursive;
+}
+
+.item__title {
+  margin: 15px auto 8px auto;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+}
+
+.item__price {
+  font-family: "Exo 2", sans-serif;
+  font-size: 200;
 }
 
 .border-round {

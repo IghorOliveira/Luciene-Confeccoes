@@ -37,3 +37,33 @@ input::placeholder {
         transition: 0.5s ease-in-out;
     }
 }
+
+.first-line__title{
+    font-size: 50px !important;
+    font-family: 'Courgette', cursive;
+}
+
+.second-line__title{
+    font-size: 50px !important;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.third-line__title{
+    font-size: 50px !important;
+    font-family: 'Bangers', cursive;
+}
+
+.item__title{
+    margin: 15px auto 8px auto;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+}
+
+.item__price{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 200;
+}
+
+.copyright{
+    
+}
