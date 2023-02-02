@@ -349,6 +349,7 @@ input::placeholder {
 
 .catalog__link {
   text-decoration: none !important;
+  color: #000 !important;
 }
 .catalog__link:hover {
   text-decoration: underline !important;
