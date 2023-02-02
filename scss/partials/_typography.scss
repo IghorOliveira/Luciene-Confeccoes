@@ -78,3 +78,11 @@ input::placeholder {
 .copyright{
     
 }
+
+.catalog__link{
+    text-decoration: none !important;
+
+    &:hover{
+        text-decoration: underline !important;
+    }
+}

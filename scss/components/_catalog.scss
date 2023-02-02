@@ -20,14 +20,6 @@
                 @include media-breakpoint-down(sm){
                     margin-top: 40px;
                 }
-
-                .catalog__link{
-                    text-decoration: none;
-
-                    &:hover{
-                        text-decoration: underline;
-                    }
-                }
             }
         }
     }

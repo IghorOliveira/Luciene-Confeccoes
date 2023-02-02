@@ -188,12 +188,6 @@ header .header__container ul li a:hover {
     margin-top: 40px;
   }
 }
-.catalog .container-fluid .row .px-2 .catalog__link {
-  text-decoration: none;
-}
-.catalog .container-fluid .row .px-2 .catalog__link:hover {
-  text-decoration: underline;
-}
 
 .product .product__slider {
   display: inline-block;
@@ -351,6 +345,13 @@ input::placeholder {
 .item__price {
   font-family: "Exo 2", sans-serif !important;
   font-size: 200;
+}
+
+.catalog__link {
+  text-decoration: none !important;
+}
+.catalog__link:hover {
+  text-decoration: underline !important;
 }
 
 .border-round {
