@@ -4,6 +4,7 @@
 @use 'components/footer' as *;
 @use 'components/catalog-helper' as *;
 @use 'components/catalog' as *;
+@use 'components/product' as *;
 
 @use 'partials/custom' as *;
 
@@ -16,8 +17,4 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.row{
-    width: 98% !important;
 }

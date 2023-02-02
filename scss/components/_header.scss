@@ -1,6 +1,8 @@
 @use '../partials/custom' as *;
 
 header{
+    font-family: 'Bangers', sans-serif;
+    letter-spacing: 0.06rem;
     .header__container{
         width: 99vw;
         margin: 0 auto;

@@ -2,7 +2,7 @@
 
 
 .indicators--intro{
-    border: 3px solid $terciary;
+    border: 3px solid $black;
     border-radius: 25px;
     width: 150px;
     margin: 0 auto;
@@ -29,7 +29,7 @@
     width: 12px !important; 
     height: 12px !important; 
     border-radius: 100% !important; 
-    background-color: $terciary !important;
+    background-color: $black !important;
 
     @include media-breakpoint-down(md){
         width: 10px !important; 
@@ -48,7 +48,7 @@
 } 
 
 .indicator-mobile{
-    border: 3px solid $terciary;
+    border: 3px solid $black;
     border-radius: 25px;
     width: 200px;
     margin: 0 auto;
@@ -79,7 +79,7 @@
     margin-left: 45px;
 
     .fa-chevron-left{
-        color: $terciary;
+        color: $black;
         /* width: 40px;
         height: 40px; */
     }
@@ -106,7 +106,7 @@
     margin-right: 45px;
 
     .fa-chevron-right{
-        color: $terciary;;
+        color: $black;
     }
 
     @include media-breakpoint-down(md){

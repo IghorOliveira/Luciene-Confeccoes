@@ -9,6 +9,11 @@ nav {
   background-color: #fff;
 }
 
+.nav-link {
+  color: #000 !important;
+  font-family: "Exo 2", sans-serif;
+}
+
 .nav-item__mobile {
   margin-right: auto;
 }
@@ -20,6 +25,8 @@ nav {
   background: #fff;
   font-size: 18px;
   font-weight: 600;
+  color: #000;
+  font-family: "Exo 2", sans-serif;
 }
 .dropdown .dropdown-menu .dropdown-item:hover {
   text-decoration: underline;
@@ -28,6 +35,10 @@ nav {
 /* form {
     .form
 } */
+header {
+  font-family: "Bangers", sans-serif;
+  letter-spacing: 0.06rem;
+}
 header .header__container {
   width: 99vw;
   margin: 0 auto;
@@ -62,6 +73,7 @@ header .header__container ul li a:hover {
   padding: 20px 35px;
   background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
   border-radius: 10px;
+  font-family: "Exo 2", sans-serif;
 }
 .first-line .gradient__link:hover {
   outline: 3px solid #8f71ff;
@@ -73,7 +85,7 @@ header .header__container ul li a:hover {
 .footer {
   position: relative;
   margin: 65px auto 0 auto;
-  font-family: "Dancing Script", cursive;
+  font-family: "Exo 2 ", sans-serif;
   font-size: 20px;
 }
 .footer .container-gray {
@@ -183,9 +195,92 @@ header .header__container ul li a:hover {
   text-decoration: underline;
 }
 
+.product .product__slider {
+  display: inline-block;
+  width: 45vw;
+  max-height: 60vh;
+}
+@media (max-width: 575.98px) {
+  .product .product__slider {
+    width: 75vw;
+    max-height: 80vh;
+  }
+}
+.product .product__title {
+  font-size: 35px;
+  font-family: "Exo 2", sans-serif;
+}
+.product .product__info {
+  text-align: center;
+  align-self: center;
+  font-family: "Exo 2", sans-serif;
+}
+@media (min-width: 992px) {
+  .product .product__info {
+    padding-right: 15%;
+  }
+}
+.product .product__info .product__price {
+  font-family: inherit;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.product .product__info .product__stock {
+  font-family: inherit;
+  font-size: 18px;
+}
+.product .product__info .product__line {
+  display: block;
+  margin: 20px auto;
+  height: 1px;
+  width: 200px;
+  background: #000;
+}
+.product .product__info .product__sizes--title {
+  font-family: inherit;
+  margin-bottom: 10px;
+}
+.product .product__info .green {
+  background: #25D366 !important;
+  border: 1px solid #128C7E !important;
+}
+.product .product__info .green .whatsapp-text {
+  color: white !important;
+  font-family: inherit;
+  font-size: 16px;
+}
+.product .product__info .green:hover {
+  background: #075E54 !important;
+}
+
+#product__left-arrow--margin {
+  margin-left: 200px;
+}
+@media (max-width: 1199.98px) {
+  #product__left-arrow--margin {
+    margin-left: 0px !important;
+  }
+}
+
+#product__right-arrow--margin {
+  margin-right: 200px;
+}
+@media (max-width: 1199.98px) {
+  #product__right-arrow--margin {
+    margin-right: 0px !important;
+  }
+}
+
+.product__accordion {
+  padding: 0 10%;
+}
+.product__accordion .accordion-header {
+  font-family: "Bangers", cursive;
+  font-size: 60px;
+}
+
 a, h1, h2, h3, h4, h5, h6, p, span {
-  color: #000 !important;
-  font-family: "Dancing Script", cursive;
+  color: #000;
 }
 
 input::placeholder {
@@ -219,7 +314,7 @@ input::placeholder {
 
 .first-line__title {
   font-size: 50px;
-  font-family: "Courgette", cursive;
+  font-family: "Bangers", sans-serif;
 }
 @media (max-width: 575.98px) {
   .first-line__title {
@@ -229,7 +324,7 @@ input::placeholder {
 
 .second-line__title {
   font-size: 50px;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Bangers", sans-serif;
 }
 @media (max-width: 575.98px) {
   .second-line__title {
@@ -239,7 +334,7 @@ input::placeholder {
 
 .third-line__title {
   font-size: 50px;
-  font-family: "Bangers", cursive;
+  font-family: "Bangers", sans-serif;
 }
 @media (max-width: 575.98px) {
   .third-line__title {
@@ -287,7 +382,7 @@ input::placeholder {
 }
 
 .indicators--intro {
-  border: 3px solid #A2D2FF;
+  border: 3px solid #000;
   border-radius: 25px;
   width: 150px;
   margin: 0 auto;
@@ -315,7 +410,7 @@ input::placeholder {
   width: 12px !important;
   height: 12px !important;
   border-radius: 100% !important;
-  background-color: #A2D2FF !important;
+  background-color: #000 !important;
 }
 @media (max-width: 767.98px) {
   .carousel-indicators-round {
@@ -332,7 +427,7 @@ input::placeholder {
 }
 
 .indicator-mobile {
-  border: 3px solid #A2D2FF;
+  border: 3px solid #000;
   border-radius: 25px;
   width: 200px;
   margin: 0 auto;
@@ -363,7 +458,7 @@ input::placeholder {
   margin-left: 45px;
 }
 .carousel-control-prev .fa-chevron-left {
-  color: #A2D2FF;
+  color: #000;
   /* width: 40px;
   height: 40px; */
 }
@@ -390,7 +485,7 @@ input::placeholder {
   margin-right: 45px;
 }
 .carousel-control-next .fa-chevron-right {
-  color: #A2D2FF;
+  color: #000;
 }
 @media (max-width: 767.98px) {
   .carousel-control-next {
@@ -402,10 +497,6 @@ input::placeholder {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.row {
-  width: 98% !important;
 }
 
 /*# sourceMappingURL=style.css.map */

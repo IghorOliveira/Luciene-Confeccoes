@@ -1,0 +1,96 @@
+@use '../partials/custom' as *;
+
+.product{
+    .product__slider{
+        display: inline-block;
+        width: 45vw;
+        max-height:60vh;
+
+        @include media-breakpoint-down (sm){
+            width: 75vw;
+            max-height:80vh;
+        }
+    }
+
+    .product__title{
+        font-size: 35px;
+        font-family: 'Exo 2', sans-serif;
+    }
+
+    .product__info{
+        text-align: center;
+        align-self: center;
+        font-family: 'Exo 2', sans-serif;
+
+        @include media-breakpoint-up(lg){
+            padding-right: 15%;
+        }
+        
+
+        .product__price{
+            font-family: inherit;
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .product__stock{
+            font-family: inherit;
+            font-size: 18px;
+
+        }
+
+        .product__line{
+            display: block;
+            margin: 20px auto;
+            height: 1px;
+            width: 200px;
+            background: #000;
+        }
+
+        .product__sizes--title{
+            font-family: inherit;
+            margin-bottom: 10px;
+        }
+
+        .green{
+            background: #25D366 !important;
+            border: 1px solid #128C7E !important;
+
+            .whatsapp-text{
+                color: white !important;
+                font-family: inherit;
+                font-size: 16px;
+            }
+
+            &:hover{
+                background: #075E54 !important;
+            }
+        }
+    }
+}
+
+#product__left-arrow--margin{
+    margin-left: 200px;
+
+    @include media-breakpoint-down(xl){
+        margin-left: 0px !important;
+    }
+}
+
+#product__right-arrow--margin{
+    margin-right: 200px;
+
+    @include media-breakpoint-down(xl){
+        margin-right: 0px !important;
+    }
+}
+
+
+
+.product__accordion{
+    padding: 0 10%;
+    .accordion-header{
+        font-family: 'Bangers', cursive;
+        font-size: 60px;
+    }
+}
